@@ -1,0 +1,17 @@
+{
+  "name": "@deepseek-ai/dsh-ocr",
+  "description": "DSH 豆包视觉插件：在 dsh-ocr-plugin 原生 OCR 基础上，接入豆包视觉模型理解生活场景图片，并将豆包理解与本地 OCR 信息整合后交给 DeepSeek 模型。",
+  "version": "0.2.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "tools",
+    "scripts",
+    "docs"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}

@@ -1,0 +1,15 @@
+# model files are downloaded at runtime, never committed
+*.gguf
+*.bin
+
+# python
+__pycache__/
+*.pyc
+
+# harness runtime artifacts
+pasted/
+node_modules/
+
+# misc
+.DS_Store
+*.log
