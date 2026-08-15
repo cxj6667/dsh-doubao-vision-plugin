@@ -169,6 +169,12 @@ python3 tools/doubao_vision.py login
 - **豆包 ask 提取不到回答**：doubao.com 前端可能改版。可改用 Ark API 模式，或设 `DOUBAO_DEBUG_SCREENSHOTS=1` 后查看 profile 目录旁的截图并反馈。
 - **隐私**：本地 OCR 只在本机；图片字节只在 Ark / doubao.com 后端需要时发送。
 
+## 第三方致谢
+
+本仓库基于 [dsh-ocr-plugin](https://github.com/CraZY222123/dsh-ocr-plugin)（MIT）增强，并使用了 DeepSeek-OCR-2、RapidOCR、llama.cpp、Playwright 等开源项目。
+
+完整清单见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
 ## 许可
 
-插件本体与脚本：MIT。DeepSeek-OCR-2、RapidOCR、llama.cpp 的许可见其上游仓库。
+插件本体与脚本：MIT。DeepSeek-OCR-2、RapidOCR、llama.cpp 等第三方项目的许可见其上游仓库。
